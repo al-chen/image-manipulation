@@ -1,0 +1,31 @@
+/* RunNode.java */
+
+public class RunNode {
+ 
+    private Pixel pixel;
+    private int len;
+    private RunNode next;
+    private RunNode prev;
+    
+    RunNode(Pixel pixel, int len) {
+        this.pixel = pixel;
+        this.len = len;
+        next = null;
+        prev = null;
+    }
+    
+    public Pixel getPixel() {
+        return pixel;
+    }
+    
+    public void setPixel(Pixel pixel) {
+        this.pixel = pixel;
+    }
+    
+    
+    
+    
+    
+    
+    
+}
